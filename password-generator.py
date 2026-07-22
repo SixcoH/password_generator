@@ -6,6 +6,7 @@ def generer_mot_de_passe(longueur):
         print("La longueur doit être d'au moins 4.")
         return ""
 
+# 4 caractères garantie
     minuscule = random.choice(string.ascii_lowercase)
     majuscule = random.choice(string.ascii_uppercase)
     chiffre = random.choice(string.digits)

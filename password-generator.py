@@ -19,11 +19,3 @@ def generer_mot_de_passe(longueur):
     random.shuffle(mot_de_passe_liste)
 
     return "".join(mot_de_passe_liste)
-
-
-if __name__ == '__main__':
-    longueur = int(input("Longueur du mot de passe : "))
-    mot_de_passe = generer_mot_de_passe(longueur)
-
-    if mot_de_passe != "":
-        print("Mot de passe généré :", mot_de_passe)
